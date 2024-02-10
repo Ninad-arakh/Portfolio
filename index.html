@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" class="css">
+    <title>Portfolio Website - Ninad Arakh</title>
+    <script src="https://kit.fontawesome.com/092e49fbe7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">My Expertise</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer/Developer</p>
+                <h1>Hi, i'm <span>Ninad</span> <br>from India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about me -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/Lights.jpg" alt="" srcset="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>An enthusiastic engineering experience with highly motivated and leadership skills seeking an entry level
+                        opportunity with an esteemed organizations which where i can utilize my skills and enhance learning to grow along
+                        the organization objective.
+                        </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <!-- skills -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>HTML, CSS, TypeScript, Angular</li>
+                            <li><span>Programming Languages</span><br>JAVA, C++, JavaScript, Python, C</li>
+                            <li><span>DataBase/Frameworks</span><br>MySQL, Bootstrap, Spring boot, JSP</li>
+                        </ul>
+                    </div>
+                    <!-- experience -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Jan 2024 - Feb 2024</span><br>Internship with CodeSoft</li>
+                            <li><span>Mar 2022 - Sep 2022</span><br>Full stack Development Training at JBK institute Pune</li>
+                        </ul>
+                    </div>
+                    <!-- education -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021 - current</span><br>B.SC Computer Science from Dr. Babasaheb Ambedkar Marathwada University Aurangabad.</li>
+                            <li><span>2022</span><br>Full stack Development Training at JBK institute Pune</li>
+                            <li><span>2019</span><br>HSC from Adarsh jr. college Chikhli.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------projects-------------------- -->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title"> My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-4.jpg">
+                    <div class="layer">
+                        <h3>online Exam Webapp</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem iusto vel, vitae laborum, dignissimos amet asperiores, fugiat possimus eos quia aspernatur quo minus ad. Non voluptas quia dolore libero minima?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png">
+                    <div class="layer">
+                        <h3>Spotify Clone</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem iusto vel, vitae laborum, dignissimos amet asperiores, fugiat possimus eos quia aspernatur quo minus ad. Non voluptas quia dolore libero minima?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png">
+                    <div class="layer">
+                        <h3>E-commerse website</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem iusto vel, vitae laborum, dignissimos amet asperiores, fugiat possimus eos quia aspernatur quo minus ad. Non voluptas quia dolore libero minima?</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Expertise</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Development</h2>
+                    <p>Experienced in both functional and OOP: C, C++, Java, JavaScript, TypeScript.</p>
+                    <a href="#">Learn More.</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-css3"></i>
+                    <h2>Web Development</h2>
+                    <p>Passionate about UI/UX. Over a year of development experience in HTML, CSS, JS, Angular 2+ and ReactJS frameworks.</p>
+                    <a href="#">Learn More.</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum harum, perspiciatis quas ut facilis dolores id, doloremque, ea necessitatibus nesciunt laboriosam recusandae aspernatur! Accusamus repudiandae obcaecati quod vero unde hic.</p>
+                    <a href="#">Learn More.</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ---------------contact---------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>  arakhninad@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>  +91 0123456789</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/ninad-arakh-277747237"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/ninad__arakh?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+                    <a href="images/resume n.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="text" name="email" placeholder="youremail@in.com" required>
+                        <textarea name="Message"rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright <i class="fa-regular fa-copyright"></i>Ninad Arakh.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }  
+  
+    </script> 
+
+    <script>
+        var sidemen = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemen.style.right = "0";
+        }
+        function closemenu(){
+            sidemen.style.right = "-200px";
+        }
+    </script>
+
+    <!-- --------------------------contact form--------------------- -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxNFG6uSCp3ajtZWUx3VjAeCQxSE6gY6ZKfdL6RuNc2RdDoxen1KyweHosSsX4sqxXt/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response =>{
+                msg.innerHTML = "Message sent successfuly!"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000);
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+
+</html>
